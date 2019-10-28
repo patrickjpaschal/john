@@ -1,0 +1,43 @@
+body {
+  background-color: #3e96df;
+}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#titleinput {
+    border-radius: 20px;
+}
+#bodyinput {
+    border-radius: 20px;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 45%;
+  height: 700px;
+}
+#notes {
+  width: 30%;
+}
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: #2be6ff;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
