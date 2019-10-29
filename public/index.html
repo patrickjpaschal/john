@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-      <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
     <title>Scraper</title>
   </head>
   <body>
     <div id="wrapper">
       <h2>MLB.COM Top News</h2>
+      <span class="text"
+        >To retreive the news article add "/scrape " to the end of the URL. Once
+        the scraping is complete. Remove "/scape" frrom the URL and you will be
+        returned to the first page with the scraped data... click anywhere
+        around the title of an article to enter the note section or click the
+        link to go to selected news story. Thank you and have a wonder day...GO
+        ASTROS</span
+      >
       <div class="container">
-            <div id="articles"></div>
-            <div id="notes"></div>  
+        <div id="articles"></div>
+        <div id="notes"></div>
       </div>
-  
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
